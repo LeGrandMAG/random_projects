@@ -1,0 +1,1 @@
+with open('life.txt', 'r')
