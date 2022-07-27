@@ -8,7 +8,7 @@ print(list[0]['hour'])
 
 
 i = 0
-def ClassHour(t): 
+def ClassHour(): 
     while(i<10):
         i+=1
         
@@ -21,7 +21,7 @@ def ClassHour(t):
         print(f"The hour is {a} and the time is {b}  ")
         print(f' I is {i}')
         
-    v = t
+    v = int(input("Insert your time: "))
 
     if (v<=0):
         print("Please insert a number above 0")

@@ -8,7 +8,7 @@ print(list[0]['hour'])
 
 
 i = 0
-def ClassHour(t): 
+def ClassHour(): 
     while(i<10):
         i+=1
         

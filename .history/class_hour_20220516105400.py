@@ -21,7 +21,7 @@ def ClassHour(t):
         print(f"The hour is {a} and the time is {b}  ")
         print(f' I is {i}')
         
-    v = t
+    v = int(input("Insert your time: "))
 
     if (v<=0):
         print("Please insert a number above 0")
@@ -30,4 +30,4 @@ def ClassHour(t):
         f = list[v-1]['time']
         print(f'the period is {f} and the time is {e}')
 
-    z = int(input("press a key to exit"))
+    z = t
